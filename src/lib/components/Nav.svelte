@@ -17,6 +17,7 @@
 
 	const navLinks = $derived([
 		{ href: '/', label: $t('nav.home') },
+		{ href: '/classes', label: $t('nav.classes') },
 		{ href: '/articles', label: $t('nav.articles') },
 		{ href: '/events', label: $t('nav.events') },
 		{ href: '/faq', label: $t('nav.faq') }
@@ -26,8 +27,7 @@
 <nav
 	class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 {scrolled
 		? 'bg-white/90 dark:bg-neutral-900/90 backdrop-blur-md shadow-sm'
-		: 'bg-transparent'}"
->
+		: 'bg-transparent'}">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex items-center justify-between h-16 lg:h-20">
 			<!-- Logo -->
@@ -37,7 +37,10 @@
 						class="absolute inset-0 bg-gradient-to-br from-lotus-400 to-lotus-600 lotus-blob
 									group-hover:scale-110 transition-transform duration-300"
 					></div>
-					<Flower class="absolute inset-0 w-full h-full p-1.5 text-white" />
+					<img src="/logo.svg" 
+									alt="Logo"
+									class="w-12 h-12 rounded-full object-cover shadow-sm"/>
+					<!-- <Flower class="absolute inset-0 w-full h-full p-1.5 text-white" /> -->
 				</div>
 				<span class="font-heading text-xl font-semibold text-lotus-700 dark:text-lotus-300">
 					Yoga Hoa Sen

@@ -10,8 +10,6 @@ image: https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80
 category: Philosophy
 ---
 
-
-
 The lotus (*Nelumbo nucifera*) has been revered across Asian cultures for thousands of years. It grows from the darkness of muddy water, yet its blossoms remain immaculate — untouched, radiant, fragrant.
 
 This is not a coincidence. Ancient yoga texts chose the lotus as a central symbol precisely because it mirrors the human spiritual journey.
@@ -28,7 +26,7 @@ The mud is not the enemy. In fact, the lotus cannot grow without it. The nutrien
 
 Between the mud and the blossom lies the stem — long, flexible, deeply rooted. This is your practice. Not the peak poses you see on social media, but the years of showing up to your mat, imperfect and sincere.
 
-The stem must be strong enough to hold the blossom above the water's surface. In yoga terms, this strength is built through *abhyasa* (consistent practice) and vairagya (non-attachment to outcome).
+The stem must be strong enough to hold the blossom above the water's surface. In yoga terms, this strength is built through *abhyasa* (consistent practice) and *vairagya* (non-attachment to outcome).
 
 You practice not to perform, but to become.
 
