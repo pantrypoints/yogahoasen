@@ -1,19 +1,38 @@
 <script lang="ts">
-	import { page } from '$app/state';
-	import { locales, localizeHref } from '$lib/paraglide/runtime';
-	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import '../app.css';
+	import Nav from '$lib/components/Nav.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import { theme } from '$lib/stores/theme';
+	import { locale } from '$lib/i18n';
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
+	import { fade } from 'svelte/transition';
 
-	let { children } = $props();
+	interface Props { children: import('svelte').Snippet; }
+	let { children }: Props = $props();
+
+	// Apply dark class on mount
+	onMount(() => {
+		const savedTheme = localStorage.getItem('theme');
+		if (savedTheme === 'dark') {
+			document.documentElement.classList.add('dark');
+		}
+	});
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<svelte:head>
+	<title>Yoga Hoa Sen</title>
+</svelte:head>
 
-<div style="display:none">
-	{#each locales as locale}
-		<a
-			href={localizeHref(page.url.pathname, { locale })}
-		>{locale}</a>
-	{/each}
+<div class="min-h-screen flex flex-col">
+	<Nav />
+	<main class="flex-1">
+		{#key $page.url.pathname}
+			<div in:fade={{ duration: 250, delay: 50 }}>
+				{@render children()}
+			</div>
+		{/key}
+	</main>
+	<Footer />
 </div>

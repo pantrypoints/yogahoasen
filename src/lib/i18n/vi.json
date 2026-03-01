@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "articles": "Bài Viết",
+    "events": "Sự Kiện",
+    "faq": "Câu Hỏi",
+    "bookClass": "Đặt Lớp Học"
+  },
+  "hero": {
+    "tagline": "Tìm Lại Hoa Sen Bên Trong Bạn",
+    "subtitle": "Hít thở. Chuyển động. Nở rộ. Tham gia cộng đồng và khám phá sức mạnh chuyển hóa của yoga.",
+    "cta": "Bắt Đầu Hành Trình",
+    "ctaSecondary": "Khám Phá Lớp Học"
+  },
+  "about": {
+    "title": "Con Đường Hoa Sen",
+    "subtitle": "Về Yoga Hoa Sen",
+    "body": "Như bông sen vươn lên từ bùn lầy để nở rộ trong sáng, việc thực hành của chúng ta giúp bạn tìm thấy sự rõ ràng, bình an và tỏa sáng từ bên trong. Yoga Hoa Sen là nơi truyền thống gặp gỡ cuộc sống hiện đại.",
+    "body2": "Thành lập năm 2018, chúng tôi kết hợp các giáo viên giàu kinh nghiệm, tinh thần Việt Nam đích thực và các phương pháp sức khỏe dựa trên bằng chứng để nuôi dưỡng thân, tâm và hồn.",
+    "stat1": "Lớp Học / Tuần",
+    "stat2": "Giáo Viên Chứng Nhận",
+    "stat3": "Học Viên Hạnh Phúc"
+  },
+  "services": {
+    "title": "Dịch Vụ Của Chúng Tôi",
+    "subtitle": "Những con đường để nở rộ",
+    "hatha": { "name": "Yoga Hatha", "desc": "Tư thế cổ điển và hơi thở xây dựng sức mạnh, linh hoạt và bình an nội tâm." },
+    "vinyasa": { "name": "Vinyasa Flow", "desc": "Chuỗi chuyển động nhịp nhàng theo hơi thở — năng động, sôi nổi và thiền định." },
+    "yin": { "name": "Yin Yoga", "desc": "Tư thế giữ lâu nhắm vào mô liên kết sâu. Sự tĩnh lặng như phương thuốc." },
+    "meditation": { "name": "Thiền Định", "desc": "Thực hành chánh niệm, hơi thở và mantra để đạt sự rõ ràng tâm trí lâu dài." },
+    "prenatal": { "name": "Yoga Tiền Sản", "desc": "Thực hành nhẹ nhàng, an toàn hỗ trợ các bà mẹ tương lai qua từng tam cá nguyệt." },
+    "kids": { "name": "Yoga Trẻ Em", "desc": "Những buổi học vui nhộn, sáng tạo giúp trẻ em xây dựng sự tập trung và nhận thức cơ thể." }
+  },
+  "schedule": {
+    "title": "Lịch Học",
+    "subtitle": "Tìm thời gian hoàn hảo của bạn",
+    "mon": "Thứ Hai",
+    "tue": "Thứ Ba",
+    "wed": "Thứ Tư",
+    "thu": "Thứ Năm",
+    "fri": "Thứ Sáu",
+    "sat": "Thứ Bảy",
+    "sun": "Chủ Nhật",
+    "spots": "chỗ còn lại",
+    "full": "Đầy",
+    "bookNow": "Đặt Ngay"
+  },
+  "testimonials": {
+    "title": "Tiếng Nói Từ Cộng Đồng Hoa Sen",
+    "subtitle": "Học viên nói gì"
+  },
+  "articles": {
+    "title": "Từ Blog",
+    "subtitle": "Trí tuệ cho việc luyện tập của bạn",
+    "readMore": "Đọc Thêm",
+    "search": "Tìm kiếm bài viết…",
+    "allArticles": "Tất Cả Bài Viết",
+    "noResults": "Không tìm thấy bài viết.",
+    "minRead": "phút đọc"
+  },
+  "people": {
+    "title": "Giáo Viên Của Chúng Tôi",
+    "subtitle": "Người hướng dẫn trên hành trình của bạn"
+  },
+  "events": {
+    "title": "Sự Kiện Sắp Tới",
+    "subtitle": "Đào sâu việc luyện tập",
+    "search": "Tìm kiếm sự kiện…",
+    "register": "Đăng Ký",
+    "free": "Miễn Phí",
+    "noResults": "Không tìm thấy sự kiện.",
+    "allEvents": "Tất Cả Sự Kiện"
+  },
+  "contact": {
+    "title": "Đến Tìm Chúng Tôi",
+    "subtitle": "Chúng tôi rất muốn nghe từ bạn",
+    "address": "Địa Chỉ",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "hours": "Giờ Mở Cửa",
+    "hoursValue": "T2–T6: 6:00 SA – 9:00 CH\nT7–CN: 7:00 SA – 7:00 CH",
+    "formName": "Tên Của Bạn",
+    "formEmail": "Địa Chỉ Email",
+    "formMessage": "Tin Nhắn Của Bạn",
+    "formSend": "Gửi Tin Nhắn",
+    "formSuccess": "Đã gửi tin nhắn! Chúng tôi sẽ liên hệ sớm. 🪷"
+  },
+  "faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "subtitle": "Mọi thứ bạn cần biết"
+  },
+  "footer": {
+    "tagline": "Bám rễ trong truyền thống. Nở rộ trong hiện tại.",
+    "rights": "Bảo lưu mọi quyền.",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ"
+  },
+  "darkMode": {
+    "toggle": "Chuyển chế độ tối"
+  }
+}

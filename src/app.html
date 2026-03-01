@@ -1,16 +1,13 @@
 <!doctype html>
-
-<html lang="%paraglide.lang%">
+<html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="utf-8" />
-
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1"
-		/>
-
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Yoga Hoa Sen — Find your lotus within. Yoga classes, workshops, and retreats in the heart of the city." />
 		%sveltekit.head%
 	</head>
-
-	<body data-sveltekit-preload-data="hover"><div style="display: contents">%sveltekit.body%</div></body>
+	<body data-sveltekit-preload-data="hover" class="bg-stone-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 transition-colors duration-300">
+		<div id="svelte">%sveltekit.body%</div>
+	</body>
 </html>

@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Home",
+    "articles": "Articles",
+    "events": "Events",
+    "faq": "FAQ",
+    "bookClass": "Book a Class"
+  },
+  "hero": {
+    "tagline": "Find Your Lotus Within",
+    "subtitle": "Breathe. Flow. Blossom. Join our community and discover the transformative power of yoga.",
+    "cta": "Begin Your Journey",
+    "ctaSecondary": "Explore Classes"
+  },
+  "about": {
+    "title": "The Lotus Path",
+    "subtitle": "About Yoga Hoa Sen",
+    "body": "Like the lotus flower that rises from muddy waters to bloom in pristine beauty, our practice helps you find clarity, peace, and radiance from within. Yoga Hoa Sen is a sanctuary where tradition meets modern life — a place to root down and rise up.",
+    "body2": "Founded in 2018, we bring together experienced teachers, an authentic Vietnamese spirit, and evidence-based wellness practices to nurture body, mind, and soul.",
+    "stat1": "Classes / Week",
+    "stat2": "Certified Teachers",
+    "stat3": "Happy Students"
+  },
+  "services": {
+    "title": "Our Offerings",
+    "subtitle": "Paths to bloom",
+    "hatha": { "name": "Hatha Yoga", "desc": "Classical postures and breath work to build strength, flexibility, and inner calm." },
+    "vinyasa": { "name": "Vinyasa Flow", "desc": "Fluid sequences synchronised with breath — dynamic, energising, and meditative." },
+    "yin": { "name": "Yin Yoga", "desc": "Long-held postures targeting deep connective tissue. Stillness as medicine." },
+    "meditation": { "name": "Meditation", "desc": "Guided mindfulness, breathwork, and mantra practices for lasting mental clarity." },
+    "prenatal": { "name": "Prenatal Yoga", "desc": "Gentle, safe practice supporting mothers-to-be through every trimester." },
+    "kids": { "name": "Kids Yoga", "desc": "Playful, imaginative sessions helping children build focus and body awareness." }
+  },
+  "schedule": {
+    "title": "Class Schedule",
+    "subtitle": "Find your perfect time",
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday",
+    "sun": "Sunday",
+    "spots": "spots left",
+    "full": "Full",
+    "bookNow": "Book Now"
+  },
+  "testimonials": {
+    "title": "Voices of the Lotus Community",
+    "subtitle": "What students say"
+  },
+  "articles": {
+    "title": "From the Blog",
+    "subtitle": "Wisdom for your practice",
+    "readMore": "Read More",
+    "search": "Search articles…",
+    "allArticles": "All Articles",
+    "noResults": "No articles found.",
+    "minRead": "min read"
+  },
+  "people": {
+    "title": "Our Teachers",
+    "subtitle": "Guides on your journey"
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "subtitle": "Deepen your practice",
+    "search": "Search events…",
+    "register": "Register",
+    "free": "Free",
+    "noResults": "No events found.",
+    "allEvents": "All Events"
+  },
+  "contact": {
+    "title": "Come Find Us",
+    "subtitle": "We'd love to hear from you",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Studio Hours",
+    "hoursValue": "Mon–Fri: 6:00 AM – 9:00 PM\nSat–Sun: 7:00 AM – 7:00 PM",
+    "formName": "Your Name",
+    "formEmail": "Email Address",
+    "formMessage": "Your Message",
+    "formSend": "Send Message",
+    "formSuccess": "Message sent! We'll be in touch soon. 🪷"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know"
+  },
+  "footer": {
+    "tagline": "Rooted in tradition. Blossoming in the present.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "darkMode": {
+    "toggle": "Toggle dark mode"
+  }
+}
