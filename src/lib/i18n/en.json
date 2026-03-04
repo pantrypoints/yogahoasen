@@ -25,12 +25,12 @@
   "services": {
     "title": "Our Offerings",
     "subtitle": "Paths to bloom",
-    "hatha": { "name": "Hatha Yoga", "desc": "Classical postures and breath work to build strength, flexibility, and inner calm." },
-    "vinyasa": { "name": "Vinyasa Flow", "desc": "Fluid sequences synchronised with breath — dynamic, energising, and meditative." },
-    "yin": { "name": "Yin Yoga", "desc": "Long-held postures targeting deep connective tissue. Stillness as medicine." },
+    "hatha": { "name": "Yoga Asanas", "desc": "Classical postures and breath work to build strength, flexibility, and inner calm." },
+    "vinyasa": { "name": "Social Service", "desc": "We participate is social service work through PROUT, RAWA, and other related organizations." },
+    "yin": { "name": "Fasting and Detox", "desc": "We hold fasting camps and detox workshops." },
     "meditation": { "name": "Meditation", "desc": "Guided mindfulness, breathwork, and mantra practices for lasting mental clarity." },
-    "prenatal": { "name": "Prenatal Yoga", "desc": "Gentle, safe practice supporting mothers-to-be through every trimester." },
-    "kids": { "name": "Kids Yoga", "desc": "Playful, imaginative sessions helping children build focus and body awareness." }
+    "prenatal": { "name": "Master Unit", "desc": "We have a 5 hectare land for use in agriculture and neo-humanistic education" },
+    "kids": { "name": "Natural Products", "desc": "We sell natural and herbal products that are from Vietnam and India" }
   },
   "schedule": {
     "title": "Class Schedule",

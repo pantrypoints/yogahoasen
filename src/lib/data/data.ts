@@ -11,8 +11,8 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
 	{
 		id: 1,
-		name: 'Thi Nguyen',
-		avatar: 'https://i.pravatar.cc/100?img=47',
+		name: 'Lavanya',
+		avatar: '/lavanya.jpg',
 		text: 'Yoga Hoa Sen changed my life. After years of chronic back pain, six months of practice here has given me my body back. The teachers are genuinely gifted.',
 		textVi: 'Yoga Hoa Sen đã thay đổi cuộc đời tôi. Sau nhiều năm đau lưng mãn tính, sáu tháng tập luyện ở đây đã trả lại cơ thể cho tôi.',
 		rating: 5,
@@ -20,40 +20,23 @@ export const testimonials: Testimonial[] = [
 	},
 	{
 		id: 2,
-		name: 'David Chen',
-		avatar: 'https://i.pravatar.cc/100?img=12',
-		text: 'I was a complete sceptic about yoga. Now I practice four times a week and cannot imagine life without it. The community here is warm, inclusive, and deeply supportive.',
-		textVi: 'Tôi hoàn toàn hoài nghi về yoga. Giờ tôi tập bốn lần một tuần và không thể tưởng tượng cuộc sống không có nó.',
-		rating: 5,
-		role: 'Student, 8 months'
-	},
-	{
-		id: 3,
-		name: 'Mai Le',
-		avatar: 'https://i.pravatar.cc/100?img=56',
-		text: 'The prenatal classes with Teacher Linh were a lifesaver during my pregnancy. I felt strong, calm, and prepared. Now I bring my daughter to kids yoga!',
-		textVi: 'Các lớp tiền sản với Cô Linh là vô giá trong thai kỳ của tôi. Tôi cảm thấy mạnh mẽ, bình an và sẵn sàng.',
+		name: 'Jagadish',
+		avatar: '/jagadish.jpg',
+		text: 'Yoga Hoa Sen helped me a lot when I was in Saigon looking for a supportive yoga community for my spiritual journey',
+		textVi: 'Hoa Sen Yoga đã giúp đỡ tôi rất nhiều khi tôi ở Sài Gòn tìm kiếm một cộng đồng yoga hỗ trợ cho hành trình tâm linh của mình.',
 		rating: 5,
 		role: 'Student, 2 years'
-	},
-	{
-		id: 4,
-		name: 'James Park',
-		avatar: 'https://i.pravatar.cc/100?img=33',
-		text: 'As a runner, I was struggling with tight hips and hamstrings. The yin yoga classes here have been the missing piece in my training. My recovery times have halved.',
-		textVi: 'Là một người chạy bộ, tôi gặp khó khăn với hông và gân khoeo căng. Các lớp yin yoga ở đây là phần còn thiếu trong quá trình tập luyện của tôi.',
-		rating: 5,
-		role: 'Student, 5 months'
-	},
-	{
-		id: 5,
-		name: 'Anh Phuong',
-		avatar: 'https://i.pravatar.cc/100?img=44',
-		text: 'The meditation program transformed how I handle stress at work. I am more focused, patient, and creative. My colleagues have noticed the difference!',
-		textVi: 'Chương trình thiền định đã thay đổi cách tôi xử lý căng thẳng trong công việc. Tôi tập trung, kiên nhẫn và sáng tạo hơn.',
-		rating: 5,
-		role: 'Student, 14 months'
 	}
+	// ,
+	// {
+	// 	id: 3,
+	// 	name: 'Tapesvari',
+	// 	avatar: 'https://i.pravatar.cc/100?img=56',
+	// 	text: 'The prenatal classes with Teacher Linh were a lifesaver during my pregnancy. I felt strong, calm, and prepared. Now I bring my daughter to kids yoga!',
+	// 	textVi: 'Các lớp tiền sản với Cô Linh là vô giá trong thai kỳ của tôi. Tôi cảm thấy mạnh mẽ, bình an và sẵn sàng.',
+	// 	rating: 5,
+	// 	role: 'Student, 2 years'
+	// }
 ];
 
 export interface Person {
@@ -124,46 +107,51 @@ export interface ScheduleClass {
 	spots: number;
 }
 
+
+
 export const schedule: Record<string, ScheduleClass[]> = {
 	mon: [
-		{ time: '6:30', name: 'Morning Hatha', teacher: 'Linh', duration: 60, level: 'All', spots: 5 },
-		{ time: '9:00', name: 'Vinyasa Flow', teacher: 'Minh', duration: 75, level: 'Intermediate', spots: 8 },
-		{ time: '18:00', name: 'Beginner Yoga', teacher: 'Linh', duration: 60, level: 'Beginner', spots: 3 },
-		{ time: '19:30', name: 'Yin Yoga', teacher: 'Hoa', duration: 75, level: 'All', spots: 12 }
+		{ time: '6:00', name: 'Class 1', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 5 },
+		{ time: '11:30', name: 'Class 2', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 8 },
+		{ time: '17:45', name: 'Class 3', teacher: 'Kumuda', duration: 75, level: 'Beginner', spots: 3 },
+		{ time: '19:00', name: 'Class 4', teacher: 'Kumuda', duration: 75, level: 'All', spots: 12 }
 	],
 	tue: [
-		{ time: '7:00', name: 'Meditation', teacher: 'Minh', duration: 45, level: 'All', spots: 15 },
-		{ time: '10:00', name: 'Prenatal Yoga', teacher: 'Linh', duration: 60, level: 'All', spots: 4 },
-		{ time: '18:30', name: 'Power Vinyasa', teacher: 'Minh', duration: 60, level: 'Advanced', spots: 6 }
+		{ time: '6:00', name: 'Class 1', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 5 },
+		{ time: '11:30', name: 'Class 2', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 8 },
+		{ time: '17:45', name: 'Class 3', teacher: 'Kumuda', duration: 75, level: 'Beginner', spots: 3 },
+		{ time: '19:00', name: 'Class 4', teacher: 'Kumuda', duration: 75, level: 'All', spots: 12 }
 	],
 	wed: [
-		{ time: '6:30', name: 'Morning Hatha', teacher: 'Hoa', duration: 60, level: 'All', spots: 7 },
-		{ time: '9:30', name: 'Yin & Restore', teacher: 'Hoa', duration: 90, level: 'All', spots: 10 },
-		{ time: '17:00', name: 'Kids Yoga', teacher: 'Duc', duration: 45, level: 'All', spots: 8 },
-		{ time: '19:00', name: 'Vinyasa Flow', teacher: 'Linh', duration: 75, level: 'Intermediate', spots: 2 }
+		{ time: '6:00', name: 'Class 1', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 5 },
+		{ time: '11:30', name: 'Class 2', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 8 },
+		{ time: '17:45', name: 'Class 3', teacher: 'Kumuda', duration: 75, level: 'Beginner', spots: 3 },
+		{ time: '19:00', name: 'Class 4', teacher: 'Kumuda', duration: 75, level: 'All', spots: 12 }
 	],
 	thu: [
-		{ time: '7:00', name: 'Breathwork', teacher: 'Minh', duration: 60, level: 'All', spots: 12 },
-		{ time: '9:00', name: 'Hatha Yoga', teacher: 'Linh', duration: 60, level: 'All', spots: 9 },
-		{ time: '18:00', name: 'Beginner Flow', teacher: 'Duc', duration: 60, level: 'Beginner', spots: 6 },
-		{ time: '19:30', name: 'Deep Yin', teacher: 'Hoa', duration: 90, level: 'All', spots: 11 }
+		{ time: '6:00', name: 'Class 1', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 5 },
+		{ time: '11:30', name: 'Class 2', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 8 },
+		{ time: '17:45', name: 'Class 3', teacher: 'Kumuda', duration: 75, level: 'Beginner', spots: 3 },
+		{ time: '19:00', name: 'Class 4', teacher: 'Kumuda', duration: 75, level: 'All', spots: 12 }
 	],
 	fri: [
-		{ time: '6:30', name: 'Morning Vinyasa', teacher: 'Minh', duration: 75, level: 'Intermediate', spots: 4 },
-		{ time: '10:00', name: 'Slow Flow', teacher: 'Hoa', duration: 60, level: 'All', spots: 8 },
-		{ time: '18:00', name: 'TGIF Flow', teacher: 'Linh', duration: 60, level: 'All', spots: 5 }
+		{ time: '6:00', name: 'Class 1', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 5 },
+		{ time: '11:30', name: 'Class 2', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 8 },
+		{ time: '17:45', name: 'Class 3', teacher: 'Kumuda', duration: 75, level: 'Beginner', spots: 3 },
+		{ time: '19:00', name: 'Class 4', teacher: 'Kumuda', duration: 75, level: 'All', spots: 12 }
 	],
 	sat: [
-		{ time: '8:00', name: 'Weekend Hatha', teacher: 'Linh', duration: 90, level: 'All', spots: 0 },
-		{ time: '10:00', name: 'Vinyasa Workshop', teacher: 'Minh', duration: 120, level: 'Intermediate', spots: 3 },
-		{ time: '14:00', name: 'Kids & Family', teacher: 'Duc', duration: 60, level: 'All', spots: 7 },
-		{ time: '16:00', name: 'Yin & Nidra', teacher: 'Hoa', duration: 90, level: 'All', spots: 9 }
-	],
-	sun: [
-		{ time: '8:30', name: 'Sunrise Meditation', teacher: 'Minh', duration: 60, level: 'All', spots: 14 },
-		{ time: '10:00', name: 'Gentle Hatha', teacher: 'Hoa', duration: 75, level: 'Beginner', spots: 6 },
-		{ time: '17:00', name: 'Restorative Yoga', teacher: 'Linh', duration: 90, level: 'All', spots: 8 }
+		{ time: '6:00', name: 'Class 1', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 5 },
+		{ time: '11:30', name: 'Class 2', teacher: 'Kalyanii', duration: 75, level: 'All', spots: 8 },
+		{ time: '17:45', name: 'Class 3', teacher: 'Kumuda', duration: 75, level: 'Beginner', spots: 3 },
+		{ time: '19:00', name: 'Class 4', teacher: 'Kumuda', duration: 75, level: 'All', spots: 12 }
 	]
+	// ,
+	// sun: [
+	// 	{ time: '8:30', name: 'Sunrise Meditation', teacher: 'Minh', duration: 60, level: 'All', spots: 14 },
+	// 	{ time: '10:00', name: 'Gentle Hatha', teacher: 'Hoa', duration: 75, level: 'Beginner', spots: 6 },
+	// 	{ time: '17:00', name: 'Restorative Yoga', teacher: 'Linh', duration: 90, level: 'All', spots: 8 }
+	// ]
 };
 
 export const faqItems = [

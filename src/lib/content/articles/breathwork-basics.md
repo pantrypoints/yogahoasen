@@ -10,6 +10,8 @@ image: https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80
 category: Practice
 ---
 
+
+
 The Sanskrit word *pranayama* splits into two roots: *prana* (life force, breath) and *ayama* (extension, expansion). To practice pranayama is to consciously extend and direct your vital energy.
 
 The breath is the only autonomic function we can also control voluntarily. This dual nature makes it the perfect bridge between the conscious mind and the nervous system.

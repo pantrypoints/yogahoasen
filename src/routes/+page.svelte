@@ -65,8 +65,7 @@
 		loop
 		playsinline
 		poster="https://images.unsplash.com/photo-1588286840104-8957b019727f?w=1600&q=80"
-		class="absolute inset-0 w-full h-full object-cover"
-	>
+		class="absolute inset-0 w-full h-full object-cover">
 		<!-- Provide a real yoga video in /static/hero.mp4 for production -->
 		<source src="/hero.mp4" type="video/mp4" />
 	</video>
@@ -77,7 +76,9 @@
 	<!-- Decorative lotus petal -->
 	<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
 		<div class="w-[600px] h-[600px] opacity-10 animate-petal-spin">
-			<Flower class="w-full h-full text-lotus-300" />
+			<!-- <Flower class="w-full h-full text-lotus-300" /> -->
+			<img src="/logo.svg" alt="My Icon" />
+
 		</div>
 	</div>
 
@@ -129,8 +130,9 @@
 <section
 	id="about"
 	class="py-24 bg-stone-50 dark:bg-neutral-950"
-	use:reveal={'about'}
->
+	use:reveal={'about'}>
+
+
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 			<!-- Visual -->
@@ -138,17 +140,15 @@
 				<div class="relative w-full max-w-md mx-auto">
 					<!-- Main image -->
 					<img
-						src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80"
+						src="/cobra.jpg"
 						alt="Yoga practice"
-						class="rounded-3xl shadow-2xl w-full object-cover h-[480px]"
-					/>
+						class="rounded-3xl shadow-2xl w-full object-cover h-[480px]"/>
 					<!-- Floating badge -->
 					<div
 						class="absolute -bottom-6 -right-6 w-36 h-36 lotus-blob
 									bg-gradient-to-br from-lotus-400 to-lotus-600 flex flex-col items-center justify-center
-									text-white shadow-lg shadow-lotus-400/40"
-					>
-						<span class="text-3xl font-bold">7+</span>
+									text-white shadow-lg shadow-lotus-400/40">
+						<span class="text-3xl font-bold">20+</span>
 						<span class="text-xs text-center leading-tight px-4">Years of Bloom</span>
 					</div>
 					<!-- Decoration -->
@@ -167,6 +167,7 @@
 				<p class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-4">
 					{$t('about.body')}
 				</p>
+
 				<p class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-10">
 					{$t('about.body2')}
 				</p>

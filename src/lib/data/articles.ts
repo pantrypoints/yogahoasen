@@ -13,6 +13,18 @@ export interface Article {
 
 export const articles: Article[] = [
 	{
+		slug: 'test',
+		title: 'Tesat',
+		titleVi: 'Tesat',
+		excerpt: 'Discover how ancient lotus symbolism mirrors the journey of a dedicated yoga practitioner — from muddy beginnings to radiant blossoming.',
+		excerptVi: 'Khám phá cách biểu tượng hoa sen cổ đại phản ánh hành trình của người thực hành yoga chuyên tâm.',
+		date: '2025-05-12',
+		readTime: 6,
+		category: 'Philosophy',
+		image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
+		author: 'Linh Nguyen'
+	},
+	{
 		slug: 'the-path-of-lotus',
 		title: 'The Path of the Lotus: Yoga as a Way of Life',
 		titleVi: 'Con Đường Hoa Sen: Yoga Như Một Lối Sống',

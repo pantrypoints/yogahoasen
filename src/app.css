@@ -3,17 +3,17 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  /* Lotus color palette */
-  --color-lotus-50: #fdf2f8;
-  --color-lotus-100: #fce7f3;
-  --color-lotus-200: #fbcfe8;
-  --color-lotus-300: #f9a8d4;
-  --color-lotus-400: #f472b6;
-  --color-lotus-500: #ec4899;
-  --color-lotus-600: #db2777;
-  --color-lotus-700: #be185d;
-  --color-lotus-800: #9d174d;
-  --color-lotus-900: #831843;
+  /* Lotus color palette - changed from pink to orange */
+  --color-lotus-50: #fff7ed;  /* orange-50 */
+  --color-lotus-100: #ffedd5; /* orange-100 */
+  --color-lotus-200: #fed7aa; /* orange-200 */
+  --color-lotus-300: #fdba74; /* orange-300 */
+  --color-lotus-400: #fb923c; /* orange-400 */
+  --color-lotus-500: #f97316; /* orange-500 */
+  --color-lotus-600: #ea580c; /* orange-600 */
+  --color-lotus-700: #c2410c; /* orange-700 */
+  --color-lotus-800: #9a3412; /* orange-800 */
+  --color-lotus-900: #7c2d12; /* orange-900 */
 
   /* Sage / stem green */
   --color-sage-50: #f0fdf4;
@@ -64,9 +64,9 @@
   animation: petal-spin 20s linear infinite;
 }
 
-/* Gradient text */
+/* Gradient text - updated to orange gradient */
 .gradient-text {
-  background: linear-gradient(135deg, #ec4899, #be185d, #f59e0b);
+  background: linear-gradient(135deg, #f97316, #c2410c, #f59e0b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -77,13 +77,13 @@
   clip-path: ellipse(100% 55% at 50% 44%);
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - updated to orange */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #f472b6; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #fb923c; border-radius: 3px; }
 
-/* Focus ring */
-*:focus-visible { outline: 2px solid #ec4899; outline-offset: 2px; }
+/* Focus ring - updated to orange */
+*:focus-visible { outline: 2px solid #f97316; outline-offset: 2px; }
 
 /* Prose article styles in dark mode */
 .dark .prose {
