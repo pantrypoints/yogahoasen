@@ -14,8 +14,8 @@ export interface Article {
 export const articles: Article[] = [
 	{
 		slug: 'test',
-		title: 'Tesat',
-		titleVi: 'Tesat',
+		title: 'Test',
+		titleVi: 'Test',
 		excerpt: 'Discover how ancient lotus symbolism mirrors the journey of a dedicated yoga practitioner — from muddy beginnings to radiant blossoming.',
 		excerptVi: 'Khám phá cách biểu tượng hoa sen cổ đại phản ánh hành trình của người thực hành yoga chuyên tâm.',
 		date: '2025-05-12',
