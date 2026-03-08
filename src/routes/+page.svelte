@@ -11,7 +11,7 @@
 	import { fade, fly, scale } from 'svelte/transition';
 	// import { inview } from 'svelte/action';  
 	import {
-		Wind, Heart, Moon, Sparkles, Baby, Users,
+		PersonStanding, Heart, Moon, Sparkles, Baby, Users, Tractor,
 		MapPin, Phone, Mail, Clock, ChevronDown,
 		Instagram, Send, Check, Flower, Leaf,
 		Star, CalendarDays, ArrowRight
@@ -28,7 +28,7 @@
 	}
 
 	// Services
-	const serviceIcons = [Wind, Heart, Moon, Sparkles, Baby, Users];
+	const serviceIcons = [PersonStanding, Heart, Moon, Sparkles, Tractor, Leaf];
 
 	// Schedule
 	const days = ['mon','tue','wed','thu','fri','sat','sun'] as const;
@@ -219,13 +219,11 @@
 								hover:shadow-lg hover:shadow-lotus-100/50 dark:hover:shadow-lotus-900/30
 								transition-all duration-300 bg-stone-50 dark:bg-neutral-800/50
 								{visibleSections.services ? 'animate-fade-up' : 'opacity-0'}"
-					style="animation-delay:{i * 80}ms"
-				>
+					style="animation-delay:{i * 80}ms">
 					<div
 						class="w-14 h-14 rounded-2xl bg-gradient-to-br from-lotus-100 to-lotus-200
 									dark:from-lotus-900/50 dark:to-lotus-800/50 flex items-center justify-center mb-4
-									group-hover:scale-110 transition-transform duration-300"
-					>
+									group-hover:scale-110 transition-transform duration-300">
 						<Icon class="w-7 h-7 text-lotus-600 dark:text-lotus-400" />
 					</div>
 					<h3 class="font-semibold text-lg text-neutral-900 dark:text-neutral-100 mb-2">
@@ -239,6 +237,8 @@
 		</div>
 	</div>
 </section>
+
+
 
 <!-- ═══════════════════════════════════════ 
      CLASS SCHEDULE
@@ -472,20 +472,14 @@
 
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 			{#each events.slice(0, 3) as event, i}
-				<div
-					class="{visibleSections.events ? 'animate-fade-up' : 'opacity-0'}"
-					style="animation-delay:{i * 100}ms"
-				>
+				<div class="{visibleSections.events ? 'animate-fade-up' : 'opacity-0'}"
+					style="animation-delay:{i * 100}ms">
 					<EventCard {event} />
 				</div>
 			{/each}
 		</div>
 	</div>
 </section>
-
-
-
-
 
 
 

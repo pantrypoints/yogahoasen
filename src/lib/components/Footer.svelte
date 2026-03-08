@@ -10,8 +10,7 @@
 			<div class="md:col-span-2">
 				<div class="flex items-center gap-2 mb-4">
 					<div class="relative w-10 h-10">
-						<div class="absolute inset-0 bg-gradient-to-br from-lotus-400 to-lotus-600 lotus-blob"></div>
-						<Flower class="absolute inset-0 w-full h-full p-2 text-white" />
+						<img src="/logo.svg" alt="Logo" class="object-cover shadow-sm"/>
 					</div>
 					<span class="font-heading text-xl font-semibold text-white">Yoga Hoa Sen</span>
 				</div>
@@ -60,9 +59,9 @@
 					{$t('contact.title')}
 				</h3>
 				<address class="not-italic text-sm text-neutral-400 space-y-2">
-					<p>123 Hoa Sen Street<br />Hoan Kiem, Hanoi</p>
-					<p>+84 24 1234 5678</p>
-					<p>namaste@yogahoasen.vn</p>
+					<p>34 Phan Liêm, Phường Tân Định, Thành phố Hồ Chí Minh</p>
+					<p>91 887 3316</p>
+					<p>yogahoasen.vn@gmail.com</p>
 				</address>
 			</div>
 		</div>

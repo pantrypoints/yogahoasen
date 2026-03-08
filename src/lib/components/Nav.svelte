@@ -37,9 +37,7 @@
 						class="absolute inset-0 bg-gradient-to-br from-lotus-400 to-lotus-600 lotus-blob
 									group-hover:scale-110 transition-transform duration-300"
 					></div> -->
-					<img src="/logo.svg" 
-									alt="Logo"
-									class="object-cover shadow-sm"/>
+					<img src="/logo.svg" alt="Logo" class="object-cover shadow-sm"/>
 					<!-- <Flower class="absolute inset-0 w-full h-full p-1.5 text-white" /> -->
 				</div>
 				<span class="font-heading text-xl font-semibold text-lotus-700 dark:text-lotus-300">

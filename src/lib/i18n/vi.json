@@ -25,12 +25,12 @@
   "services": {
     "title": "Dịch Vụ Của Chúng Tôi",
     "subtitle": "Những con đường để nở rộ",
-    "hatha": { "name": "Yoga Hatha", "desc": "Tư thế cổ điển và hơi thở xây dựng sức mạnh, linh hoạt và bình an nội tâm." },
-    "vinyasa": { "name": "Vinyasa Flow", "desc": "Chuỗi chuyển động nhịp nhàng theo hơi thở — năng động, sôi nổi và thiền định." },
-    "yin": { "name": "Yin Yoga", "desc": "Tư thế giữ lâu nhắm vào mô liên kết sâu. Sự tĩnh lặng như phương thuốc." },
-    "meditation": { "name": "Thiền Định", "desc": "Thực hành chánh niệm, hơi thở và mantra để đạt sự rõ ràng tâm trí lâu dài." },
-    "prenatal": { "name": "Yoga Tiền Sản", "desc": "Thực hành nhẹ nhàng, an toàn hỗ trợ các bà mẹ tương lai qua từng tam cá nguyệt." },
-    "kids": { "name": "Yoga Trẻ Em", "desc": "Những buổi học vui nhộn, sáng tạo giúp trẻ em xây dựng sự tập trung và nhận thức cơ thể." }
+    "hatha": { "name": "Yoga Asanas", "desc": "Các tư thế cổ điển và bài tập thở để xây dựng sức mạnh, sự dẻo dai và sự an nhiên nội tâm." },
+    "vinyasa": { "name": "Phục vụ Xã hội", "desc": "Chúng tôi tham gia các hoạt động phục vụ xã hội thông qua PROUT, RAWA và các tổ chức liên quan khác." },
+    "yin": { "name": "Nhịn ăn và Thanh lọc", "desc": "Chúng tôi tổ chức các trại nhịn ăn và hội thảo về thanh lọc cơ thể." },
+    "meditation": { "name": "Thiền định", "desc": "Các bài thực hành chánh niệm có hướng dẫn, kiểm soát hơi thở và thần chú để đạt được sự minh mẫn tinh thần lâu dài." },
+    "prenatal": { "name": "Đơn vị Mẹ", "desc": "Chúng tôi có một khu đất rộng 5 ha phục vụ nông nghiệp và giáo dục tân nhân văn." },
+    "kids": { "name": "Sản phẩm Tự nhiên", "desc": "Chúng tôi bán các sản phẩm tự nhiên và thảo dược có nguồn gốc từ Việt Nam và Ấn Độ." }
   },
   "schedule": {
     "title": "Lịch Học",
@@ -91,7 +91,7 @@
     "subtitle": "Mọi thứ bạn cần biết"
   },
   "footer": {
-    "tagline": "Bám rễ trong truyền thống. Nở rộ trong hiện tại.",
+    "tagline": "Cải thiện tinh thần, nâng cao sức khỏe",
     "rights": "Bảo lưu mọi quyền.",
     "privacy": "Chính Sách Bảo Mật",
     "terms": "Điều Khoản Dịch Vụ"

@@ -37,7 +37,7 @@
   
   // Derived values with runes
   let contactItems = $derived([
-    { icon: MapPin, label: $t('contact.address'), value: 'Số 34 Phan Liêm, Phường Đa Kao, Quận 1, Tp. Hồ Chí Minh' },
+    { icon: MapPin, label: $t('contact.address'), value: '34 Phan Liêm, Phường Tân Định, Thành phố Hồ Chí Minh' },
     { icon: Phone, label: $t('contact.phone'), value: '91 887 3316' },
     { icon: Mail, label: $t('contact.email'), value: 'yogahoasen.vn@gmail.com' },
     { icon: Clock, label: $t('contact.hours'), value: $t('contact.hoursValue') }
@@ -107,82 +107,57 @@
           </p>
         </div>
       {:else}
-        <form onsubmit={submitForm} class="space-y-5" id="contact" action="https://usebasin.com/f/15fcd8b54101" method="post">    
-          <!-- target="_blank" -->
-          {#if showFormLabels}
-            <div>
-              <label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
-                {nameLabel}
-              </label>
-              <input
-                type="text"
-                required
-                bind:value={formData.name}
-                class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
-              />
-            </div>
-          {:else}
-            <input
-              type="text"
-              required
-              placeholder={nameLabel}
-              bind:value={formData.name}
-              class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
-            />
-          {/if}
-          
-          {#if showFormLabels}
-            <div>
-              <label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
-                {emailLabel}
-              </label>
-              <input
-                type="email"
-                required
-                bind:value={formData.email}
-                class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
-              />
-            </div>
-          {:else}
-            <input
-              type="email"
-              required
-              placeholder={emailLabel}
-              bind:value={formData.email}
-              class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
-            />
-          {/if}
-          
-          {#if showFormLabels}
-            <div>
-              <label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
-                {messageLabel}
-              </label>
-              <textarea
-                rows="5"
-                required
-                bind:value={formData.message}
-                class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors resize-none"
-              ></textarea>
-            </div>
-          {:else}
-            <textarea
-              rows="5"
-              required
-              placeholder={messageLabel}
-              bind:value={formData.message}
-              class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors resize-none"
-            ></textarea>
-          {/if}
-          
-          <button
-            type="submit"
-            class="w-full py-3.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-lotus-500 to-lotus-700 hover:shadow-lg hover:shadow-lotus-300/40 hover:scale-[1.01] transition-all duration-200 flex items-center justify-center gap-2"
-          >
-            <Send class="w-4 h-4" />
-            {sendText}
-          </button>
-        </form>
+
+
+<form class="space-y-5" id="contact" action="https://usebasin.com/f/15fcd8b54101" method="post" target="_blank">
+  <!-- Name field with labels condition -->
+  <div>
+    <label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
+      {nameLabel}
+    </label>
+    <input
+      type="text"
+      name="name"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
+    />
+  </div>
+  
+  <!-- Email field -->
+  <div>
+    <label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
+      {emailLabel}
+    </label>
+    <input
+      type="email"
+      name="email"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
+    />
+  </div>
+  
+  <!-- Message field -->
+  <div>
+    <label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
+      {messageLabel}
+    </label>
+    <textarea
+      name="message"
+      rows="5"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:border-lotus-400 focus:ring-0 text-sm transition-colors resize-none"
+    ></textarea>
+  </div>
+  
+  <!-- Submit button -->
+  <button
+    type="submit"
+    class="w-full py-3.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-lotus-500 to-lotus-700 hover:shadow-lg hover:shadow-lotus-300/40 hover:scale-[1.01] transition-all duration-200 flex items-center justify-center gap-2"
+  >
+    <Send class="w-4 h-4" />
+    {sendText}
+  </button>
+</form>
       {/if}
     </div>
   </div>
