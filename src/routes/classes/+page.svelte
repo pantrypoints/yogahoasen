@@ -33,7 +33,7 @@
       photo: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80',
       nameKey: 'classes.session1Name',
       descKey: 'classes.session1Desc',
-      tags: ['Hatha', 'Vinyasa', 'Breathwork']
+      // tags: ['Hatha', 'Vinyasa', 'Breathwork']
     },
     {
       id: 2, icon: Coffee, time: '11:30 → 12:45', label: 'Ca 2', labelEn: 'Session 2',
@@ -45,7 +45,7 @@
       photo: 'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&q=80',
       nameKey: 'classes.session2Name',
       descKey: 'classes.session2Desc',
-      tags: ['Flow', 'Yin', 'Reset']
+      // tags: ['Flow', 'Yin', 'Reset']
     },
     {
       id: 3, icon: Wind, time: '17:45 → 19:00', label: 'Ca 3', labelEn: 'Session 3',
@@ -57,7 +57,7 @@
       photo: 'https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=600&q=80',
       nameKey: 'classes.session3Name',
       descKey: 'classes.session3Desc',
-      tags: ['Vinyasa', 'Power', 'Stretch']
+      // tags: ['Vinyasa', 'Power', 'Stretch']
     },
     {
       id: 4, icon: Moon, time: '19:00 → 20:30', label: 'Ca 4', labelEn: 'Session 4',
@@ -69,7 +69,7 @@
       photo: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=600&q=80',
       nameKey: 'classes.session4Name',
       descKey: 'classes.session4Desc',
-      tags: ['Yin', 'Restorative', 'Nidra']
+      // tags: ['Yin', 'Restorative', 'Nidra']
     }
   ];
 
@@ -224,6 +224,7 @@
             <s.icon class="w-4 h-4" /> {s.label} · {s.time}
           </a>
         {/each}
+        
       </div>
     </div>
   </div>

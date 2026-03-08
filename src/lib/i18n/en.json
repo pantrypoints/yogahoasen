@@ -14,8 +14,24 @@
     "ctaSecondary": "Explore Classes"
   },
   "classes": {
-    "heroTitle": "Fasting Calendar"
-  },
+    "heroTitle": "Yoga Classes",
+    "title": "Yoga Classes",
+    "daily": "Daily",
+    "duration": "Duration",
+    "allLevels": "All Levels",
+    "bookNow": "Book Now",
+    "subtitle": "Something for Everyone",
+    "session1Name": "Morning Class",
+    "session2Name": "Noon Class",
+    "session3Name": "Afternoon Class",
+    "session4Name": "Evening Class",
+    "session1Desc": "Contact Châu at 0918.873.316",
+    "session2Desc": "Contact Châu at 0918.873.316",
+    "session3Desc": "Contact Khanh at 0903.004.984",
+    "session4Desc": "Contact Khanh at 0903.004.984",
+    "gallery": "Our photos",
+    "gallerySub": "From Yoga and events"
+  }, 
   "fasting": {
     "title": "Fasting Calendar"
   },  
@@ -70,11 +86,14 @@
     "subtitle": "Guides on your journey"
   },
   "events": {
-    "title": "Upcoming Events",
+    "title": "Events",
     "subtitle": "Deepen your practice",
     "search": "Search events…",
     "register": "Register",
     "free": "Free",
+    "learnMore": "Learn More",
+    "past": "Past Events",
+    "upcoming": "Upcoming Events",
     "noResults": "No events found.",
     "allEvents": "All Events"
   },

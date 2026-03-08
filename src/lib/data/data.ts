@@ -60,7 +60,7 @@ export const people: Person[] = [
 		bio: 'Trained in Mysore, India with 200h RYT, 300h advanced certification. 12 years teaching experience across hatha, vinyasa, and prenatal yoga.',
 		bioVi: 'Được đào tạo tại Mysore, Ấn Độ với chứng chỉ RYT 200h, 300h nâng cao. 12 năm kinh nghiệm giảng dạy hatha, vinyasa và yoga tiền sản.',
 		avatar: 'https://i.pravatar.cc/200?img=49',
-		specialties: ['Hatha', 'Vinyasa', 'Prenatal'],
+		// specialties: ['Hatha', 'Vinyasa', 'Prenatal'],
 		instagram: '#'
 	},
 	{
@@ -71,7 +71,7 @@ export const people: Person[] = [
 		bio: 'Former dancer turned yoga teacher. Minh\'s classes blend movement with mindfulness, creating sequences that feel like moving meditation.',
 		bioVi: 'Vũ công trở thành giáo viên yoga. Các lớp học của Minh kết hợp chuyển động với chánh niệm, tạo ra các chuỗi như thiền định chuyển động.',
 		avatar: 'https://i.pravatar.cc/200?img=15',
-		specialties: ['Vinyasa', 'Meditation', 'Breathwork'],
+		// specialties: ['Vinyasa', 'Meditation', 'Breathwork'],
 		instagram: '#'
 	},
 	{
@@ -82,7 +82,7 @@ export const people: Person[] = [
 		bio: 'Certified in Yin Yoga and traditional Chinese medicine principles. Hoa creates profound healing spaces through stillness and surrender.',
 		bioVi: 'Chứng nhận Yin Yoga và nguyên tắc y học cổ truyền Trung Quốc. Hoa tạo ra không gian chữa lành sâu sắc qua sự tĩnh lặng.',
 		avatar: 'https://i.pravatar.cc/200?img=41',
-		specialties: ['Yin Yoga', 'Restorative', 'Sound Healing'],
+		// specialties: ['Yin Yoga', 'Restorative', 'Sound Healing'],
 		instagram: '#'
 	},
 	{
@@ -93,7 +93,7 @@ export const people: Person[] = [
 		bio: 'With a background in child development and education, Duc brings yoga to life for young people through storytelling and creative play.',
 		bioVi: 'Với nền tảng phát triển trẻ em và giáo dục, Đức mang yoga đến cuộc sống của người trẻ qua kể chuyện và chơi sáng tạo.',
 		avatar: 'https://i.pravatar.cc/200?img=67',
-		specialties: ['Kids Yoga', 'Teen Yoga', 'Mindfulness'],
+		// specialties: ['Kids Yoga', 'Teen Yoga', 'Mindfulness'],
 		instagram: '#'
 	}
 ];

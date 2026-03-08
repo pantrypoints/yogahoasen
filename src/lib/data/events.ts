@@ -18,6 +18,60 @@ export interface Event {
 
 export const events: Event[] = [
 	{
+		id: 'prout',
+		title: 'PROUT Day',
+		titleVi: 'PROUT Day',
+		description: '',
+		descriptionVi: '',
+		date: '2026-06-05',
+		time: '13:30 UTC',
+		duration: '120 min',
+		location: '',
+		price: 'free',
+		spots: 20,
+		register: '',
+		// spotsLeft: 7,
+		image: '/prout.jpg',
+		category: '',
+		teacher: ''
+	},
+	{
+		id: 'diipavalii',
+		title: 'Diipavalii',
+		titleVi: 'Diipavalii',
+		description: '',
+		descriptionVi: '',
+		date: '2026-11-08',
+		time: '13:30 UTC',
+		duration: '120 min',
+		location: '',
+		price: 'free',
+		spots: 20,
+		register: '',
+		// spotsLeft: 7,
+		image: '/divali.jpg',
+		category: '',
+		teacher: ''
+	},
+	{
+		id: 'dadhicii',
+		title: 'Dadhicii Divas',
+		titleVi: 'Dadhicii Divas',
+		description: '',
+		descriptionVi: '',
+		date: '2026-03-05',
+		time: '13:30 UTC',
+		duration: '120 min',
+		location: '',
+		price: 'free',
+		spots: 20,
+		register: 'https://india.anandamarga.org/articles/the-dadhichi-divas-a-commendation-to-unwavering-courage-faced-by-babas-children/',
+		// spotsLeft: 7,
+		image: 'https://india.anandamarga.org/wp-content/uploads/2025/03/Dadhichii.jpg',
+		category: 'Onsite',
+		teacher: 'AMAYE'
+	},
+	{
 		id: 'vrttis',
 		title: 'Diving Deep into Vrttis',
 		titleVi: 'Diving Deep into Vrttis',
@@ -48,14 +102,17 @@ export const events: Event[] = [
 		price: 'free',
 		spots: 16,
 		spotsLeft: 4,
+		register: 'https://www.facebook.com/share/v/1B6PNKGWdn/',
 		image: '/daklak.jpg',
 		category: 'Social Service',
 		// teacher: 'Minh Tran'
 	}
+];
+
+
 // [Hoạt động thiện nguyện]  
 // 🌻 Với sự thôi thúc từ trái tim cùng phương châm “lá lành đùm lá rách”, Yoga Hoa Sen đã cùng góp một ít tấm lòng nhỏ bé của mình để san sẻ cùng với các bà con bị ảnh hưởng nặng ở vùng lũ trong việc tái thiết cuộc sống, cùng vực dậy kinh tế gia đình sau mưa to, sóng lớn. 
 // Hành động cụ thể:
 // 💜 Yoga Hoa Sen đã trao tặng tận tay số tiền tổng cộng 275 triệu đồng cho 550 hộ bà con (500,000 đồng/hộ) ở xã Tuy An Tây và Tuy An Bắc, tỉnh Đắk Lắk (Phú Yên cũ) vào ngày 28/11/25.
 // 💜 Tặng 420 bếp ga trị giá 126 triệu đồng cho 420 hộ dân ở xã Tuy An Đông, tỉnh Đắk Lắk (Phú Yên cũ) vào ngày 30/11/25.
 // 🇻🇳 Hy vọng với món quà nhỏ bé này, bà con phần nào đó được an ủi và an tâm bắt đầu lại cuộc sống bình yên trên mảnh đất quê hương với nhiều nghị lực và tình yêu thương.
-];
