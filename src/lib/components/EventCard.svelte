@@ -27,11 +27,9 @@
 	);
 </script>
 
-<div
-	class="group bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden shadow-sm
+<div class="group bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden shadow-sm
 				border border-neutral-100 dark:border-neutral-800 hover:shadow-lg hover:shadow-lotus-200/30
-				transition-all duration-300 hover:-translate-y-1"
->
+				transition-all duration-300 hover:-translate-y-1">
 	<!-- Image -->
 	<div class="relative h-44 overflow-hidden">
 		<img
@@ -78,14 +76,38 @@
 			</div>
 		</div>
 
-		<button
-			disabled={event.spotsLeft === 0}
-			class="w-full py-2.5 rounded-xl text-sm font-semibold transition-all duration-200
-						{event.spotsLeft === 0
-					? 'bg-neutral-100 dark:bg-neutral-800 text-neutral-400 cursor-not-allowed'
-					: 'bg-gradient-to-r from-lotus-500 to-lotus-700 text-white hover:shadow-md hover:shadow-lotus-300/30 hover:scale-[1.02]'}"
-		>
-			{event.spotsLeft === 0 ? $t('schedule.full') : $t('events.register')}
-		</button>
+
+
+
+ 
+
+
+{#if event.register}
+	<a href={event.register} 
+		target="_blank" 
+		rel="noopener noreferrer"
+		class="block w-full py-2.5 rounded-xl text-sm font-semibold text-center transition-all duration-200 bg-gradient-to-r from-lotus-500 to-lotus-700 text-white hover:shadow-md hover:shadow-lotus-300/30 hover:scale-[1.02]">
+		{$t('events.register')}
+	</a>
+{:else}
+	<button 
+		onclick={() => {
+			// Scroll to contact form and pre-fill message with event title
+			const contactSection = document.getElementById('contact');
+			if (contactSection) {
+				contactSection.scrollIntoView({ behavior: 'smooth' });
+				
+				// If you have a form data store, you can pre-fill the message
+				// For example: formData.message = `I'm interested in the event: ${event.title}`;
+			}
+		}}
+		class="w-full py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 bg-gradient-to-r from-lotus-500 to-lotus-700 text-white hover:shadow-md hover:shadow-lotus-300/30 hover:scale-[1.02]"
+	>
+		{$t('events.contactUs') || 'Contact Us'}
+	</button>
+{/if}
+
+
+
 	</div>
 </div>

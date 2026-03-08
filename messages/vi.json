@@ -1,4 +1,13 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from vi!"
+  "nav": {
+    "home": "Trang Chủ",
+    "classes": "Lịch Học",
+    "fasting": "Lịch Đoản Thực",
+    "articles": "Bài Viết",
+    "events": "Sự Kiện",
+    "faq": "Câu Hỏi",
+    "bookClass": "Đặt Lớp Học"
+  },
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "hello_world": "Hello, {name} from vi!"
 }

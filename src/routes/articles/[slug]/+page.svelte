@@ -47,6 +47,7 @@
 	}
 </script>
 
+
 <svelte:head>
 	<title>{displayTitle} · Yoga Hoa Sen</title>
 	{#if metadata?.excerpt}<meta name="description" content={metadata.excerpt} />{/if}
@@ -100,6 +101,8 @@
 		</div>
 	{/if}
 
+
+
 	<!-- ── ARTICLE BODY ────────────────────────────────────────── -->
 	<article bind:this={articleEl} class="bg-white dark:bg-neutral-900 min-h-screen">
 		<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -136,13 +139,34 @@
 				<div class="flex flex-wrap items-center gap-4 text-sm text-neutral-500 dark:text-neutral-400">
 					{#if metadata?.author}
 						<span class="flex items-center gap-2">
+							{#if metadata?.icon}
+								<img 
+									src={metadata.icon} 
+									alt={metadata.author}
+									class="w-12 h-12 rounded-full object-cover shadow-sm"
+								/>
+							{:else}
+								<span class="w-6 h-6 rounded-full bg-gradient-to-br from-lotus-400 to-lotus-600
+										flex items-center justify-center shadow-sm">
+									<User class="w-3 h-3 text-white" />
+								</span>
+							{/if}
+							<span class="font-medium text-neutral-700 dark:text-neutral-300">{metadata.author}</span>
+						</span>
+					{/if}
+
+
+<!--  					{#if metadata?.author}
+						<span class="flex items-center gap-2">
 							<span class="w-6 h-6 rounded-full bg-gradient-to-br from-lotus-400 to-lotus-600
 									flex items-center justify-center shadow-sm">
 								<User class="w-3 h-3 text-white" />
 							</span>
 							<span class="font-medium text-neutral-700 dark:text-neutral-300">{metadata.author}</span>
 						</span>
-					{/if}
+					{/if}  -->
+
+
 					{#if metadata?.date}
 						<span class="flex items-center gap-1.5">
 							<Calendar class="w-4 h-4" />

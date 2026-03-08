@@ -18,88 +18,44 @@ export interface Event {
 
 export const events: Event[] = [
 	{
-		id: 'full-moon-yin',
-		title: 'Full Moon Yin & Sound Bath',
-		titleVi: 'Yin Trăng Tròn & Tắm Âm Thanh',
-		description: 'Join us under the full moon for a deeply restorative yin yoga practice paired with Tibetan singing bowls. Release what no longer serves you.',
-		descriptionVi: 'Tham gia cùng chúng tôi dưới ánh trăng tròn cho một buổi yin yoga phục hồi sâu sắc kết hợp với bát hát Tây Tạng.',
-		date: '2025-06-11',
-		time: '7:30 PM',
-		duration: '90 min',
-		location: 'Main Studio',
-		price: 350000,
+		id: 'vrttis',
+		title: 'Diving Deep into Vrttis',
+		titleVi: 'Diving Deep into Vrttis',
+		description: 'Panel of 4 Speakers: Ac. Premamayananda Avt., Rutger Tamminga, Ac. Kamaleshvara, Dr. Richard Maxwell. 12’ each',
+		descriptionVi: '',
+		date: '2026-02-28',
+		time: '13:30 UTC',
+		duration: '120 min',
+		location: 'Zoom',
+		price: 'free',
 		spots: 20,
-		spotsLeft: 7,
-		image: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=800&q=80',
-		category: 'Special Event',
-		teacher: 'Hoa Pham'
+		register: 'https://fkr23.r.sp1-brevo.net/mk/cl/f/sh/SMK1E8tHeG13GYUt9aiuCDGkVh5k/Hxf9nxnVd6he',
+		// spotsLeft: 7,
+		image: '/vrtiis.jpg',
+		category: 'Online',
+		teacher: 'AMAYE'
 	},
 	{
-		id: 'vinyasa-immersion',
-		title: 'Weekend Vinyasa Immersion',
-		titleVi: 'Khóa Học Vinyasa Cuối Tuần',
+		id: 'dak-lak',
+		title: 'Daklak Donation Activity',
+		titleVi: 'Trao ngọn lửa ấm, xua “mùa đông” vùng lũ',
 		description: 'A two-day deep dive into vinyasa methodology — breath-to-movement synchronization, transitions, and building creative sequencing skills.',
-		descriptionVi: 'Khóa học hai ngày khám phá sâu phương pháp vinyasa — đồng bộ hơi thở và chuyển động, chuyển tiếp, và xây dựng kỹ năng sắp xếp trình tự.',
+		descriptionVi: 'Như các bạn đã theo dõi, trong tháng 11 vừa qua mảnh đất miền Nam Trung Bộ đã trải qua một trận mưa lũ lịch sử với những hệ quả đặc biệt nghiêm trọng, ảnh hưởng trực tiếp đến kế sinh nhai của hơn 10.000 hộ dân ở các tỉnh Đắk Lắk (Phú Yên cũ), Khánh Hòa',
 		date: '2025-06-21',
 		time: '9:00 AM',
 		duration: '2 days',
 		location: 'Studio A & B',
-		price: 1500000,
+		price: 'free',
 		spots: 16,
 		spotsLeft: 4,
-		image: 'https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=800&q=80',
-		category: 'Workshop',
-		teacher: 'Minh Tran'
-	},
-	{
-		id: 'beginner-bootcamp',
-		title: 'Yoga Beginner Bootcamp',
-		titleVi: 'Khóa Yoga Dành Cho Người Mới',
-		description: 'New to yoga? This four-week beginner series will teach you the fundamentals — alignment, breath, and the core postures of a sustainable practice.',
-		descriptionVi: 'Mới tập yoga? Chuỗi bốn tuần dành cho người mới này sẽ dạy bạn các kiến thức cơ bản — căn chỉnh, hơi thở và các tư thế cốt lõi.',
-		date: '2025-07-07',
-		time: '6:00 PM',
-		duration: '4 weeks',
-		location: 'Studio B',
-		price: 800000,
-		spots: 12,
-		spotsLeft: 10,
-		image: 'https://images.unsplash.com/photo-1540206395-68808572332f?w=800&q=80',
-		category: 'Course',
-		teacher: 'Linh Nguyen'
-	},
-	{
-		id: 'meditation-free',
-		title: 'Community Meditation Morning',
-		titleVi: 'Buổi Sáng Thiền Cộng Đồng',
-		description: 'A free open practice for the community. Sit, breathe, and be still together. All levels and backgrounds welcome.',
-		descriptionVi: 'Buổi tập mở miễn phí cho cộng đồng. Ngồi, thở và tĩnh lặng cùng nhau. Chào đón mọi trình độ.',
-		date: '2025-06-29',
-		time: '7:00 AM',
-		duration: '60 min',
-		location: 'Rooftop Garden',
-		price: 'free',
-		spots: 30,
-		spotsLeft: 18,
-		image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80',
-		category: 'Community',
-		teacher: 'All Teachers'
-	},
-	{
-		id: 'prenatal-workshop',
-		title: 'Prenatal Yoga & Birthing Prep',
-		titleVi: 'Yoga Tiền Sản & Chuẩn Bị Sinh',
-		description: 'A nurturing one-day workshop covering prenatal yoga, breathing for labor, and postpartum recovery practices.',
-		descriptionVi: 'Hội thảo một ngày nuôi dưỡng bao gồm yoga tiền sản, hơi thở khi sinh và các phương pháp phục hồi sau sinh.',
-		date: '2025-07-19',
-		time: '9:30 AM',
-		duration: 'Full Day',
-		location: 'Studio A',
-		price: 650000,
-		spots: 10,
-		spotsLeft: 6,
-		image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80',
-		category: 'Workshop',
-		teacher: 'Linh Nguyen'
+		image: '/daklak.jpg',
+		category: 'Social Service',
+		// teacher: 'Minh Tran'
 	}
+// [Hoạt động thiện nguyện]  
+// 🌻 Với sự thôi thúc từ trái tim cùng phương châm “lá lành đùm lá rách”, Yoga Hoa Sen đã cùng góp một ít tấm lòng nhỏ bé của mình để san sẻ cùng với các bà con bị ảnh hưởng nặng ở vùng lũ trong việc tái thiết cuộc sống, cùng vực dậy kinh tế gia đình sau mưa to, sóng lớn. 
+// Hành động cụ thể:
+// 💜 Yoga Hoa Sen đã trao tặng tận tay số tiền tổng cộng 275 triệu đồng cho 550 hộ bà con (500,000 đồng/hộ) ở xã Tuy An Tây và Tuy An Bắc, tỉnh Đắk Lắk (Phú Yên cũ) vào ngày 28/11/25.
+// 💜 Tặng 420 bếp ga trị giá 126 triệu đồng cho 420 hộ dân ở xã Tuy An Đông, tỉnh Đắk Lắk (Phú Yên cũ) vào ngày 30/11/25.
+// 🇻🇳 Hy vọng với món quà nhỏ bé này, bà con phần nào đó được an ủi và an tâm bắt đầu lại cuộc sống bình yên trên mảnh đất quê hương với nhiều nghị lực và tình yêu thương.
 ];

@@ -3,6 +3,8 @@
 	import Carousel from '$lib/components/Carousel.svelte';
 	import ArticleCard from '$lib/components/ArticleCard.svelte';
 	import EventCard from '$lib/components/EventCard.svelte';
+	import Contact from '$lib/components/Contact.svelte';
+
 	import { testimonials, people, schedule, faqItems } from '$lib/data/data';
 	import { articles } from '$lib/data/articles';
 	import { events } from '$lib/data/events';
@@ -53,6 +55,9 @@
 		{ key: 'about.stat3', value: 500 }
 	];
 </script>
+
+
+
 
 <!-- ═══════════════════════════════════════ 
      HERO — Full-screen video
@@ -388,11 +393,10 @@
 <!-- ═══════════════════════════════════════ 
      PEOPLE / TEACHERS
 ═══════════════════════════════════════ -->
-<section
+<!-- <section
 	id="teachers"
 	class="py-24 bg-white dark:bg-neutral-900"
-	use:reveal={'people'}
->
+	use:reveal={'people'}>
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-14 {visibleSections.people ? 'animate-fade-up' : 'opacity-0'}">
 			<p class="text-sm font-semibold text-lotus-500 uppercase tracking-widest mb-3">
@@ -405,10 +409,8 @@
 
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 			{#each people as person, i}
-				<div
-					class="group text-center {visibleSections.people ? 'animate-fade-up' : 'opacity-0'}"
-					style="animation-delay:{i * 100}ms"
-				>
+				<div class="group text-center {visibleSections.people ? 'animate-fade-up' : 'opacity-0'}"
+					style="animation-delay:{i * 100}ms">
 					<div class="relative w-40 h-40 mx-auto mb-5">
 						<div
 							class="absolute inset-0 lotus-blob bg-gradient-to-br from-lotus-200 to-lotus-400
@@ -440,6 +442,7 @@
 		</div>
 	</div>
 </section>
+ -->
 
 <!-- ═══════════════════════════════════════ 
      EVENTS
@@ -480,128 +483,29 @@
 	</div>
 </section>
 
-<!-- ═══════════════════════════════════════ 
-     MAP + CONTACT
-═══════════════════════════════════════ -->
-<section
-	id="contact"
-	class="py-24 bg-white dark:bg-neutral-900"
-	use:reveal={'contact'}
->
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="text-center mb-14 {visibleSections.contact ? 'animate-fade-up' : 'opacity-0'}">
-			<p class="text-sm font-semibold text-lotus-500 uppercase tracking-widest mb-3">
-				{$t('contact.subtitle')}
-			</p>
-			<h2 class="font-heading text-4xl font-bold text-neutral-900 dark:text-neutral-100">
-				{$t('contact.title')}
-			</h2>
-		</div>
 
-		<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-			<!-- Left: Map + contact info -->
-			<div class="{visibleSections.contact ? 'animate-fade-up' : 'opacity-0'}">
-				<!-- Map embed -->
-				<div class="rounded-2xl overflow-hidden mb-8 shadow-lg">
-					<iframe
-						src="https://www.openstreetmap.org/export/embed.html?bbox=105.8400%2C21.0200%2C105.8600%2C21.0350&layer=mapnik&marker=21.0285%2C105.8542"
-						width="100%"
-						height="300"
-						style="border:0"
-						loading="lazy"
-						title="Studio Location"
-						class="w-full"
-					></iframe>
-				</div>
 
-				<!-- Contact details -->
-				<div class="space-y-4">
-					{#each [
-						{ icon: MapPin, label: $t('contact.address'), value: '123 Hoa Sen Street, Hoan Kiem, Hanoi' },
-						{ icon: Phone, label: $t('contact.phone'), value: '+84 24 1234 5678' },
-						{ icon: Mail, label: $t('contact.email'), value: 'namaste@yogahoasen.vn' },
-						{ icon: Clock, label: $t('contact.hours'), value: $t('contact.hoursValue') }
-					] as item}
-						<div class="flex items-start gap-4">
-							<div class="w-10 h-10 rounded-xl bg-lotus-50 dark:bg-lotus-900/30 flex items-center justify-center flex-none">
-								<item.icon class="w-5 h-5 text-lotus-500" />
-							</div>
-							<div>
-								<p class="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-0.5">{item.label}</p>
-								<p class="text-sm text-neutral-700 dark:text-neutral-300 whitespace-pre-line">{item.value}</p>
-							</div>
-						</div>
-					{/each}
-				</div>
-			</div>
 
-			<!-- Right: Contact form -->
-			<div class="{visibleSections.contact ? 'animate-fade-up' : 'opacity-0'}" style="animation-delay:200ms">
-				<div class="bg-stone-50 dark:bg-neutral-800/50 rounded-2xl p-8 border border-neutral-100 dark:border-neutral-700">
-					{#if formSent}
-						<div in:scale={{ duration: 300 }} class="flex flex-col items-center justify-center py-12 text-center">
-							<div class="w-16 h-16 rounded-full bg-sage-100 dark:bg-sage-900/30 flex items-center justify-center mb-4">
-								<Check class="w-8 h-8 text-sage-600" />
-							</div>
-							<p class="text-lg font-semibold text-neutral-900 dark:text-neutral-100">
-								{$t('contact.formSuccess')}
-							</p>
-						</div>
-					{:else}
-						<form onsubmit={submitForm} class="space-y-5">
-							<div>
-								<label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
-									{$t('contact.formName')}
-								</label>
-								<input
-									type="text"
-									required
-									bind:value={formData.name}
-									class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700
-												bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100
-												focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
-								/>
-							</div>
-							<div>
-								<label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
-									{$t('contact.formEmail')}
-								</label>
-								<input
-									type="email"
-									required
-									bind:value={formData.email}
-									class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700
-												bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100
-												focus:border-lotus-400 focus:ring-0 text-sm transition-colors"
-								/>
-							</div>
-							<div>
-								<label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5">
-									{$t('contact.formMessage')}
-								</label>
-								<textarea
-									rows="5"
-									required
-									bind:value={formData.message}
-									class="w-full px-4 py-3 rounded-xl border border-neutral-200 dark:border-neutral-700
-												bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100
-												focus:border-lotus-400 focus:ring-0 text-sm transition-colors resize-none"
-								></textarea>
-							</div>
-							<button
-								type="submit"
-								class="w-full py-3.5 rounded-xl font-semibold text-sm text-white
-											bg-gradient-to-r from-lotus-500 to-lotus-700
-											hover:shadow-lg hover:shadow-lotus-300/40 hover:scale-[1.01]
-											transition-all duration-200 flex items-center justify-center gap-2"
-							>
-								<Send class="w-4 h-4" />
-								{$t('contact.formSend')}
-							</button>
-						</form>
-					{/if}
-				</div>
-			</div>
-		</div>
-	</div>
+
+
+
+<!-- ═══════════════════════════════════════ MAP + CONTACT ═══════════════════════════════════════ -->
+<section id="contact" class="py-24 bg-white dark:bg-neutral-900" use:reveal={'contact'}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14 {visibleSections.contact ? 'animate-fade-up' : 'opacity-0'}">
+      <p class="text-sm font-semibold text-lotus-500 uppercase tracking-widest mb-3">
+        {$t('contact.subtitle')}
+      </p>
+      <h2 class="font-heading text-4xl font-bold text-neutral-900 dark:text-neutral-100">
+        {$t('contact.title')}
+      </h2>
+    </div>
+    
+    <!-- Use the combined Contact component -->
+    <Contact 
+      showAnimation={visibleSections.contact}
+      animationDelay={200}
+    />
+  </div>
 </section>
+

@@ -11,6 +11,36 @@
 // export default config;
 
 
+// import adapter from '@sveltejs/adapter-cloudflare';
+// import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+// import { mdsvex } from 'mdsvex';
+
+// /** @type {import('@sveltejs/kit').Config} */
+// const config = {
+//   // Add .md and .svx extensions to the list of files that Svelte handles
+//   extensions: ['.svelte', '.md', '.svx'],
+  
+//   preprocess: [
+//     vitePreprocess(),
+//     mdsvex({
+//       extensions: ['.md', '.svx'],
+//       // Optional: configure markdown options
+//       smartypants: {
+//         dashes: 'oldschool'
+//       },
+//       // You can add remark/rehype plugins here if needed
+//       remarkPlugins: [],
+//       rehypePlugins: []
+//     })
+//   ],
+  
+//   kit: {
+//     adapter: adapter()
+//   }
+// };
+
+// export default config;
+
 
 
 import adapter from '@sveltejs/adapter-cloudflare';
@@ -19,26 +49,17 @@ import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  // Add .md and .svx extensions to the list of files that Svelte handles
-  extensions: ['.svelte', '.md', '.svx'],
-  
+  extensions: ['.svelte', '.md'],
   preprocess: [
     vitePreprocess(),
     mdsvex({
-      extensions: ['.md', '.svx'],
-      // Optional: configure markdown options
-      smartypants: {
-        dashes: 'oldschool'
-      },
-      // You can add remark/rehype plugins here if needed
-      remarkPlugins: [],
-      rehypePlugins: []
+      extensions: ['.md']
     })
   ],
-  
   kit: {
     adapter: adapter()
   }
 };
 
 export default config;
+
