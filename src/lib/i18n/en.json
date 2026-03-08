@@ -13,6 +13,9 @@
     "cta": "Begin Your Journey",
     "ctaSecondary": "Explore Classes"
   },
+  "classes": {
+    "heroTitle": "Fasting Calendar"
+  },
   "fasting": {
     "title": "Fasting Calendar"
   },  

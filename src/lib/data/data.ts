@@ -179,28 +179,28 @@ export const faqItems = [
 		a: 'You can cancel up to 4 hours before class for a full credit. Cancellations within 4 hours or no-shows will forfeit the class. For workshops and events, please check the individual event policy.',
 		aVi: 'Bạn có thể hủy đến 4 giờ trước lớp để được hoàn tiền đầy đủ. Hủy trong vòng 4 giờ hoặc vắng mặt sẽ mất buổi học.'
 	},
-	{
-		q: 'Do you offer trial classes?',
-		qVi: 'Bạn có cung cấp lớp học thử không?',
-		a: 'Yes! New students get their first class free. Simply register online and use the code FIRSTBLOOM at checkout.',
-		aVi: 'Có! Học viên mới được học thử lớp đầu tiên miễn phí. Chỉ cần đăng ký trực tuyến và sử dụng mã FIRSTBLOOM khi thanh toán.'
-	},
-	{
-		q: 'Is yoga safe during pregnancy?',
-		qVi: 'Yoga có an toàn trong thai kỳ không?',
-		a: 'Absolutely, with modifications. We have a dedicated prenatal yoga program designed specifically for expectant mothers. Please always inform your teacher of your pregnancy before class.',
-		aVi: 'Hoàn toàn an toàn, với các điều chỉnh phù hợp. Chúng tôi có chương trình yoga tiền sản dành riêng cho các bà mẹ đang mang thai.'
-	},
-	{
-		q: 'Do you offer memberships or class packs?',
-		qVi: 'Bạn có cung cấp thẻ thành viên hoặc gói lớp học không?',
-		a: 'Yes! We offer single drop-in classes, class packs of 5, 10, or 20, and monthly unlimited memberships. Memberships offer the best value and include priority booking. Details are on our Pricing page.',
-		aVi: 'Có! Chúng tôi cung cấp lớp học đơn lẻ, gói 5, 10 hoặc 20 lớp, và thẻ thành viên không giới hạn hàng tháng.'
-	},
+	// {
+	// 	q: 'Do you offer trial classes?',
+	// 	qVi: 'Bạn có cung cấp lớp học thử không?',
+	// 	a: 'Yes! New students get their first class free. Simply register online and use the code FIRSTBLOOM at checkout.',
+	// 	aVi: 'Có! Học viên mới được học thử lớp đầu tiên miễn phí. Chỉ cần đăng ký trực tuyến và sử dụng mã FIRSTBLOOM khi thanh toán.'
+	// },
+	// {
+	// 	q: 'Is yoga safe during pregnancy?',
+	// 	qVi: 'Yoga có an toàn trong thai kỳ không?',
+	// 	a: 'Absolutely, with modifications. We have a dedicated prenatal yoga program designed specifically for expectant mothers. Please always inform your teacher of your pregnancy before class.',
+	// 	aVi: 'Hoàn toàn an toàn, với các điều chỉnh phù hợp. Chúng tôi có chương trình yoga tiền sản dành riêng cho các bà mẹ đang mang thai.'
+	// },
+	// {
+	// 	q: 'Do you offer memberships or class packs?',
+	// 	qVi: 'Bạn có cung cấp thẻ thành viên hoặc gói lớp học không?',
+	// 	a: 'Yes! We offer single drop-in classes, class packs of 5, 10, or 20, and monthly unlimited memberships. Memberships offer the best value and include priority booking. Details are on our Pricing page.',
+	// 	aVi: 'Có! Chúng tôi cung cấp lớp học đơn lẻ, gói 5, 10 hoặc 20 lớp, và thẻ thành viên không giới hạn hàng tháng.'
+	// },
 	{
 		q: 'Do you have parking?',
 		qVi: 'Có chỗ đậu xe không?',
-		a: 'There is paid parking available in the building\'s car park. We are also well-connected by public transport — multiple bus lines stop within 50 metres.',
-		aVi: 'Có bãi đậu xe có tính phí trong tòa nhà. Chúng tôi cũng kết nối tốt với phương tiện công cộng — nhiều tuyến xe buýt dừng trong phạm vi 50 mét.'
+		a: 'We have only parking for motorbikes which is very limited. We suggest people to park in a nearby parking area which is a few meters away from our building.',
+		aVi: 'Chúng tôi chỉ có chỗ đậu xe máy rất hạn chế. Chúng tôi khuyến nghị mọi người nên đậu xe ở bãi gần đó, cách tòa nhà chúng tôi vài mét.'
 	}
 ];

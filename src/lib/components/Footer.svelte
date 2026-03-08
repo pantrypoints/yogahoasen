@@ -19,12 +19,10 @@
 				</p>
 				<div class="flex gap-3">
 					{#each [Instagram, Facebook, Youtube] as Icon, i}
-						<a
-							href="#"
+						<a href="#"
 							class="p-2 rounded-full bg-neutral-800 hover:bg-lotus-600 text-neutral-400 hover:text-white
 										transition-all duration-200 hover:scale-110"
-							aria-label="Social link"
-						>
+							aria-label="Social link">
 							<Icon class="w-4 h-4" />
 						</a>
 					{/each}

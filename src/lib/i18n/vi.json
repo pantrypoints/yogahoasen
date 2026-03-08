@@ -22,6 +22,19 @@
     "stat2": "Giáo Viên Chứng Nhận",
     "stat3": "Học Viên Hạnh Phúc"
   },
+  "classes": {
+    "heroTitle": "Yoga Classes",
+    "title": "Yoga Classes",
+    "daily": "Daily",
+    "duration": "Duration",
+    "allLevels": "All Levels",
+    "bookNow": "Book Now",
+    "subtitle": "Something for Everyone",
+    "session1Name": "Morning Class",
+    "session2Name": "Noon Class",
+    "gallery": "Our photos",
+    "gallerySub": "From Yoga and events"
+  },  
   "services": {
     "title": "Dịch Vụ Của Chúng Tôi",
     "subtitle": "Những con đường để nở rộ",

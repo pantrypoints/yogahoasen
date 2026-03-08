@@ -71,8 +71,7 @@
 		playsinline
 		poster="https://images.unsplash.com/photo-1588286840104-8957b019727f?w=1600&q=80"
 		class="absolute inset-0 w-full h-full object-cover">
-		<!-- Provide a real yoga video in /static/hero.mp4 for production -->
-		<source src="/hero.mp4" type="video/mp4" />
+		<source src="/yoga.mp4" type="video/mp4" />
 	</video>
 
 	<!-- Overlay gradient -->

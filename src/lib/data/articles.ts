@@ -26,6 +26,18 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: 'potato-soup',
+    title: "Potato Soup Recipe",
+    titleVi: 'Súp kem Khoai Tây',
+    excerpt: "Potato soup is packed with nutritional benefits. Potatoes are an excellent source of vitamin C, potassium, and vitamin B6, which support immune function, heart health, and brain development.",
+    excerptVi: 'Potato soup is packed with nutritional benefits. Potatoes are an excellent source of vitamin C, potassium, and vitamin B6, which support immune function, heart health, and brain development.',
+    date: '2017-12-15',
+    readTime: 8,
+    category: 'Food',
+    image: 'https://plus.unsplash.com/premium_photo-1700673590238-a0e3a3795ae2',
+    author: 'Kalyani'
+  },
+  {
     slug: 'yamas',
     title: "The Yamas: Yoga's Code of Ethical Living",
     titleVi: 'Yamas: Bộ Quy Tắc Đạo Đức Của Yoga',

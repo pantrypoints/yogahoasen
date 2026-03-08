@@ -4,6 +4,7 @@
 	import { theme, toggleTheme } from '$lib/stores/theme';
 	import { slide, fade } from 'svelte/transition';
 	import { Sun, Moon, Globe, Menu, X, Flower } from 'lucide-svelte';
+	import Music from '$lib/components/Music.svelte';
 
 	let menuOpen = $state(false);
 	let scrolled = $state(false);
@@ -48,13 +49,11 @@
 			<!-- Desktop Links -->
 			<div class="hidden lg:flex items-center gap-8">
 				{#each navLinks as link}
-					<a
-						href={link.href}
+					<a href={link.href}
 						class="text-sm font-medium transition-colors duration-200
 									{$page.url.pathname === link.href
 								? 'text-lotus-600 dark:text-lotus-400'
-								: 'text-neutral-600 dark:text-neutral-300 hover:text-lotus-600 dark:hover:text-lotus-400'}"
-					>
+								: 'text-neutral-600 dark:text-neutral-300 hover:text-lotus-600 dark:hover:text-lotus-400'}">
 						{link.label}
 					</a>
 				{/each}
@@ -93,10 +92,11 @@
 					href="/#contact"
 					class="hidden lg:inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold
 								bg-gradient-to-r from-lotus-500 to-lotus-700 text-white shadow-md
-								hover:shadow-lotus-300/50 hover:scale-105 transition-all duration-200"
-				>
+								hover:shadow-lotus-300/50 hover:scale-105 transition-all duration-200">
 					{$t('nav.bookClass')}
 				</a>
+
+				<Music />
 
 				<!-- Mobile menu button -->
 				<button
