@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/i18n';
-	import { Flower, Instagram, Facebook, Youtube } from 'lucide-svelte';
+	import { Facebook, Youtube } from 'lucide-svelte';
 </script>
 
 <footer class="bg-neutral-900 dark:bg-black text-neutral-300">
@@ -17,17 +17,38 @@
 				<p class="text-sm text-neutral-400 max-w-xs leading-relaxed mb-6">
 					{$t('footer.tagline')}
 				</p>
-				<div class="flex gap-3">
-					{#each [Instagram, Facebook, Youtube] as Icon, i}
-						<a href="#"
+				<!-- <div class="flex gap-3">
+					{#each [Facebook, Youtube] as Icon, i}
+						<a href="youtube.com"
 							class="p-2 rounded-full bg-neutral-800 hover:bg-lotus-600 text-neutral-400 hover:text-white
 										transition-all duration-200 hover:scale-110"
 							aria-label="Social link">
 							<Icon class="w-4 h-4" />
 						</a>
 					{/each}
+				</div> -->
+				<div class="flex gap-3">
+				  {#each [
+				    { icon: Facebook, url: 'https://www.facebook.com/lotusyogavn', label: 'Facebook' },
+				    { icon: Youtube, url: 'https://www.youtube.com/@anandamargasaigon1663', label: 'YouTube' }
+				  ] as social}
+				    <a
+				      href={social.url}
+				      target="_blank"
+				      rel="noopener noreferrer"
+				      class="p-2 rounded-full bg-neutral-800 hover:bg-lotus-600 text-neutral-400 hover:text-white
+				             transition-all duration-200 hover:scale-110"
+				      aria-label={`Visit our ${social.label} page`}>
+				      <social.icon class="w-4 h-4" />
+				    </a>
+				  {/each}
 				</div>
+
+
 			</div>
+
+
+
 
 			<!-- Quick Links -->
 			<div>
@@ -64,16 +85,14 @@
 			</div>
 		</div>
 
-		<div
-			class="mt-12 pt-8 border-t border-neutral-800 flex flex-col sm:flex-row justify-between items-center gap-4"
-		>
+		<div class="mt-12 pt-8 border-t border-neutral-800 flex flex-col sm:flex-row justify-between items-center gap-4" >
 			<p class="text-xs text-neutral-500">
 				© {new Date().getFullYear()} Yoga Hoa Sen. {$t('footer.rights')}
 			</p>
-			<div class="flex gap-4 text-xs text-neutral-500">
+			<!-- <div class="flex gap-4 text-xs text-neutral-500">
 				<a href="#" class="hover:text-lotus-400 transition-colors">{$t('footer.privacy')}</a>
 				<a href="#" class="hover:text-lotus-400 transition-colors">{$t('footer.terms')}</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </footer>

@@ -72,6 +72,31 @@ export const events: Event[] = [
 		teacher: 'AMAYE'
 	},
 	{
+		id: 'mooncakes',
+		title: 'White Lotus Moon Cakes',
+		titleVi: 'Bánh Trung thu thuần chay Hoa Sen',
+		description: 'Yoga Hoa Sen vegan mooncakes do not use animal-derived ingredients such as milk, butter, eggs, honey, etc. Regular vegan mooncakes usually contain eggs.',
+		descriptionVi: 'Bánh Trung thu thuần chay tại Yoga Hoa Sen không sử dụng các nguyên liệu làm từ động vật như: sữa, bơ, trứng, mật ong… Bánh trung thu chay thông thường sẽ có trứng.',
+		date: '2025-10-03',
+		time: '13:30 UTC',
+		duration: '48 hours',
+		location: '',
+		price: '350,000 VND',
+		spots: 100,
+		register: 'https://www.facebook.com/share/p/1CCZoUK9kV/',
+		// spotsLeft: 7,
+		image: '/whitelotuscake.jpg',
+		category: 'Onsite',
+		teacher: 'Kalyanii'
+	},
+// 	6 điều trác tuyệt của Bánh Trung thu thuần chay Hoa Sen 🇻🇳
+// 🥮 Về thủ thuật: Tất cả các công đoạn được làm HOÀN TOÀN THỦ CÔNG và vô cùng tỉ mỉ, bao gồm: sơ chế, cắt, gọt, sên nhân, vo nhân, trộn bột, bao bột, tạo hoa văn, ép khuôn… Tất cả các loại bánh đều được nướng, hoàn toàn không trải qua quá trình lên men.
+// 🥮Về tính nghệ thuật: Để tạo ra hoa văn nhiều màu sắc với các góc cạnh sắc nét cần rất nhiều thời gian và sự tỉ mỉ dưới bàn tay người thợ có kinh nghiệm lâu năm. Do đó số lượng bánh có giới hạn #limited nhằm đảm bảo tính thẩm mỹ và độ thơm ngon cao nhất.
+// 🥮Về việc bảo quản: Bánh không dùng bất kỳ chất bảo quan để đảm bảo độ tươi ngon. Bánh được thưởng thức ngon nhất là trong vòng 07 ngày kể từ khi ra lò.
+// 🥮Về an toàn vệ sinh: Tất cả các quá trình đều thực hiện trên bàn cách mặt đất ít nhất 70 cm. Tất cả các dụng cụ làm bánh, khuôn đúc được vệ sinh bằng cồn, rửa lại kỹ lưỡng và để khô ráo. Khi tiếp xúc với nguyên liệu trong quá trình làm bánh, người thợ đều sử dụng các dụng cụ được tiệt trùng cẩn thận. Sau khi hoàn thành công đoạn nướng, bánh được làm nguội trước khi đóng gói trong phòng kín để tránh côn trùng và bụi từ không khí.
+// 🥮Năng lượng an lành: Điều đặc biệt nhất đó chính là những tâm ý an lành mà người thợ - những người thực hành ăn chay tri giác trên 10 năm, gửi gắm vào trong từng miếng bánh. Giúp người thương muôn nơi như được thưởng thức hương vị ấm áp của tình thân cùng với niềm an yên trong mùa đoàn viên sắp tới.
+// 📞Để sở hữu những miếng bánh tròn vị yêu thương và tâm huyết ngay từ hôm nay, bạn hãy Inbox về ngay Fanpage hoặc đặt hàng qua số điện thoại 0903.004.984 (Chị Khanh) hoặc 0918.873.316 (Chị Châu). 
+	{
 		id: 'vrttis',
 		title: 'Diving Deep into Vrttis',
 		titleVi: 'Diving Deep into Vrttis',

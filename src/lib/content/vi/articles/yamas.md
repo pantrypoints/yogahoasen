@@ -3,11 +3,13 @@ title: "Yamas: Bộ Quy Tắc Đạo Đức Của Yoga"
 excerpt: "Là chi thứ nhất trong tám chi của Patanjali, Yamas gồm năm nguyên tắc đạo đức hướng dẫn cách chúng ta sống hài hòa với thế giới xung quanh — nền tảng mà mọi thực hành yoga được xây dựng trên đó."
 date: 2025-06-15
 readTime: 8
-author: Linh Nguyen
-image: https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80
+icon: /lavanya.jpg
+author: Lavanya
+image: /yamas.jpg
 category: Philosophy
 slug: yamas
 ---
+
 
 Trong *Yoga Sutras* của Patanjali, con đường đến giải thoát được trình bày thành tám chi nhánh liên kết với nhau — *ashtanga*, có nghĩa là "tám chi." Hầu hết các học viên phương Tây biết đến chi thứ ba (*asana*, các tư thế) nhiều nhất. Tuy nhiên, Patanjali đã đặt **Yamas** lên đầu, và điều đó có chủ đích.
 
