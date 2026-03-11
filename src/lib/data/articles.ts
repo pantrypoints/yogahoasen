@@ -26,17 +26,29 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    slug: 'potato-soup',
-    title: "Potato Soup Recipe",
-    titleVi: 'Súp kem Khoai Tây',
-    excerpt: "Potato soup is packed with nutritional benefits. Potatoes are an excellent source of vitamin C, potassium, and vitamin B6, which support immune function, heart health, and brain development.",
-    excerptVi: 'Potato soup is packed with nutritional benefits. Potatoes are an excellent source of vitamin C, potassium, and vitamin B6, which support immune function, heart health, and brain development.',
+    slug: 'asana',
+    title: "Guidelines for Asanas",
+    titleVi: 'Các Qui Tắc Khi Tập Asanas',
+    excerpt: "10 Guidelines for Asanas",
+    excerptVi: 'Các Qui Tắc Khi Tập Asanas (Các Động Tác Yoga)',
     date: '2017-12-15',
     readTime: 8,
-    category: 'Food',
-    image: 'https://plus.unsplash.com/premium_photo-1700673590238-a0e3a3795ae2',
+    category: 'Asanas',
+    image: '/cobra.jpg',
     author: 'Kalyani'
   },
+  {
+    slug: 'selfishness',
+    title: "How to Fight Selfishness",
+    titleVi: 'How to Fight Selfishness',
+    excerpt: "Selfishness is a big problem in the world",
+    excerptVi: 'Các Qui Tắc Khi Tập Asanas (Các Động Tác Yoga)',
+    date: '2017-12-15',
+    readTime: 8,
+    category: 'Asanas',
+    image: '/cobra.jpg',
+    author: 'Lavanya'
+  },  
   {
     slug: 'yamas',
     title: "The Yamas: Yoga's Code of Ethical Living",
@@ -84,5 +96,17 @@ export const articles: Article[] = [
     category: 'Food',
     image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80',
     author: 'Hoa Pham'
-  }
+  },
+  {
+    slug: 'potato-soup',
+    title: "Potato Soup Recipe",
+    titleVi: 'Súp kem Khoai Tây',
+    excerpt: "Potato soup is packed with nutritional benefits. Potatoes are an excellent source of vitamin C, potassium, and vitamin B6, which support immune function, heart health, and brain development.",
+    excerptVi: 'Potato soup is packed with nutritional benefits. Potatoes are an excellent source of vitamin C, potassium, and vitamin B6, which support immune function, heart health, and brain development.',
+    date: '2017-12-15',
+    readTime: 8,
+    category: 'Food',
+    image: 'https://plus.unsplash.com/premium_photo-1700673590238-a0e3a3795ae2',
+    author: 'Kalyani'
+  },  
 ];
