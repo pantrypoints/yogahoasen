@@ -43,10 +43,10 @@
   "services": {
     "title": "Dịch Vụ Của Chúng Tôi",
     "subtitle": "Những con đường để nở rộ",
-    "hatha": { "name": "Yoga Asanas", "desc": "Các tư thế cổ điển và bài tập thở để xây dựng sức mạnh, sự dẻo dai và sự an nhiên nội tâm." },
+    "hatha": { "name": "Yoga Asanas", "desc": "Những bài tập đặc biệt có tác động lên các tuyến nội tiết, các khớp, cơ bắp, dây chằng và dây thần kinh, giúp ổn định nhịp thở và huyết áp, nhằm phát triển toàn diện cơ thể và tâm trí của người tập." },
     "vinyasa": { "name": "Phục vụ Xã hội", "desc": "Chúng tôi tham gia các hoạt động phục vụ xã hội thông qua PROUT, RAWA và các tổ chức liên quan khác." },
     "yin": { "name": "Nhịn ăn và Thanh lọc", "desc": "Chúng tôi tổ chức các trại nhịn ăn và hội thảo về thanh lọc cơ thể." },
-    "meditation": { "name": "Thiền định", "desc": "Các bài thực hành chánh niệm có hướng dẫn, kiểm soát hơi thở và thần chú để đạt được sự minh mẫn tinh thần lâu dài." },
+    "meditation": { "name": "Thiền định", "desc": "Giúp làm dịu hệ thống thần kinh trung ương cũng như nhịp tim, huyết áp và giảm stress. Đồng thời, gia tăng trí lực, trực giác nhạy bén, tăng sự độ lượng và tính cởi mở." },
     "prenatal": { "name": "Đơn vị Mẹ", "desc": "Chúng tôi có một khu đất rộng 5 ha phục vụ nông nghiệp và giáo dục tân nhân văn." },
     "kids": { "name": "Sản phẩm Tự nhiên", "desc": "Chúng tôi bán các sản phẩm tự nhiên và thảo dược có nguồn gốc từ Việt Nam và Ấn Độ." }
   },

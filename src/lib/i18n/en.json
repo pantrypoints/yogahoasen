@@ -45,12 +45,12 @@
     "stat3": "Happy Students"
   },
   "services": {
-    "title": "Our Offerings",
+    "title": "Our Services",
     "subtitle": "Paths to bloom",
-    "hatha": { "name": "Yoga Asanas", "desc": "Classical postures and breath work to build strength, flexibility, and inner calm." },
+    "hatha": { "name": "Yoga Classes on Asanas", "desc": "Special exercises have an impact on the endocrine glands, joints, muscles, ligaments and nerves, helping to stabilize breathing and blood pressure, to comprehensively develop the practitioner's body and mind." },
     "vinyasa": { "name": "Social Service", "desc": "We participate is social service work through PROUT, RAWA, and other related organizations." },
     "yin": { "name": "Fasting and Detox", "desc": "We hold fasting camps and detox workshops." },
-    "meditation": { "name": "Meditation", "desc": "Guided mindfulness, breathwork, and mantra practices for lasting mental clarity." },
+    "meditation": { "name": "Meditation Classes", "desc": "Helps calm the central nervous system as well as heart rate, blood pressure and reduce stress. At the same time, increase intelligence, sharp intuition, increase generosity and openness." },
     "prenatal": { "name": "Master Unit", "desc": "We have a 5 hectare land for use in agriculture and neo-humanistic education" },
     "kids": { "name": "Natural Products", "desc": "We sell natural and herbal products that are from Vietnam and India" }
   },
@@ -98,7 +98,7 @@
     "allEvents": "All Events"
   },
   "contact": {
-    "title": "Come Find Us",
+    "title": "Do you have Inquiries or Do you want to book a Class?",
     "subtitle": "We'd love to hear from you",
     "address": "Address",
     "phone": "Phone",
@@ -116,7 +116,7 @@
     "subtitle": "Everything you need to know"
   },
   "footer": {
-    "tagline": "Rooted in tradition. Blossoming in the present.",
+    "tagline": "Self-Realization and Service to All",
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"

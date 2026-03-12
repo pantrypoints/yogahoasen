@@ -26,13 +26,25 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: 'prout',
+    title: "What is Prout?",
+    titleVi: 'What is Prout?',
+    excerpt: "",
+    excerptVi: '',
+    date: '2026-03-03',
+    readTime: 2,
+    category: 'Asanas',
+    image: '/prout.jpg',
+    author: 'Lavanya'
+  },
+  {
     slug: 'asana',
     title: "Guidelines for Asanas",
     titleVi: 'Các Qui Tắc Khi Tập Asanas',
     excerpt: "10 Guidelines for Asanas",
     excerptVi: 'Các Qui Tắc Khi Tập Asanas (Các Động Tác Yoga)',
     date: '2017-12-15',
-    readTime: 8,
+    readTime: 1,
     category: 'Asanas',
     image: '/cobra.jpg',
     author: 'Kalyani'
@@ -42,11 +54,11 @@ export const articles: Article[] = [
     title: "How to Fight Selfishness",
     titleVi: 'How to Fight Selfishness',
     excerpt: "Selfishness is a big problem in the world",
-    excerptVi: 'Các Qui Tắc Khi Tập Asanas (Các Động Tác Yoga)',
+    excerptVi: 'Selfishness is a big problem in the world',
     date: '2017-12-15',
     readTime: 8,
-    category: 'Asanas',
-    image: '/cobra.jpg',
+    category: 'Morality',
+    image: '/ceo.jpg',
     author: 'Lavanya'
   },  
   {
