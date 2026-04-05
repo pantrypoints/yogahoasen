@@ -196,8 +196,7 @@
 <section
 	id="services"
 	class="py-24 bg-white dark:bg-neutral-900"
-	use:reveal={'services'}
->
+	use:reveal={'services'}>
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<!-- Header -->
 		<div class="text-center mb-16 {visibleSections.services ? 'animate-fade-up' : 'opacity-0'}">
@@ -231,7 +230,7 @@
 					<p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed">
 						{$t(`services.${key}.desc`)}
 					</p>
-				</div>
+			</div>
 			{/each}
 		</div>
 	</div>

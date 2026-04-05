@@ -5,7 +5,9 @@
     "events": "Sự Kiện",
     "faq": "Câu Hỏi",
     "classes": "Lịch Học",
-    "bookClass": "Đặt Lớp Học"
+    "fastingcalendar": "Fasting Calendar",
+    "bookClass": "Đặt Lớp Học",
+    "links": "Links"
   },
   "hero": {
     "tagline": "Tìm Lại Hoa Sen Bên Trong Bạn",
@@ -38,7 +40,8 @@
     "session2Desc": "Contact Châu at 0918.873.316",
     "session3Desc": "Contact Khanh at 0903.004.984",
     "session4Desc": "Contact Khanh at 0903.004.984",
-    "gallerySub": "From Yoga and events"
+    "gallerySub": "From Yoga and events",
+    "gallery": "Gallery"
   },  
   "services": {
     "title": "Dịch Vụ Của Chúng Tôi",

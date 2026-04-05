@@ -17,11 +17,12 @@
 	});
 
 	const navLinks = $derived([
-		{ href: '/', label: $t('nav.home') },
 		{ href: '/classes', label: $t('nav.classes') },
 		{ href: '/articles', label: $t('nav.articles') },
 		{ href: '/events', label: $t('nav.events') },
-		{ href: '/faq', label: $t('nav.faq') }
+		{ href: '/fasting', label: $t('nav.fastingcalendar') },
+		{ href: '/faq', label: $t('nav.faq') },
+		{ href: '/links', label: $t('nav.links') },
 	]);
 </script>
 
